@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply max-w-[1365px]
+    w-full
+    px-1
+    m-auto
+    h-full
+   
+    relative;
+}
+
+body {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(41, 13, 19, 1) 0%,
+    rgba(4, 8, 16, 1) 55%
+  );
+  @apply font-secFont
+  text-white
+  text-lg
+  bg-triColor-900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  @apply font-priFont leading-[100%];
+}
+
+.text-glow {
+  @apply drop-shadow-glow;
+}
+
+.nav_hover,
+.nav-item:hover {
+  @apply drop-shadow-glow
+  text-priColor-800;
+}
+
+.btn {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
+  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  &:before {
+    border: 1px solid rgba(255, 33, 33, 1);
+    -webkit-mask-image: linear-gradient(195deg, white 0%, transparent 60%);
+  }
+
+  &:after {
+    // background: linear-gradient(
+    //   var(--deg),
+    //   rgb(255 255 255 /0.03) 0%,
+    //   transparent 35%,
+    //   transparent 65%,
+    //   rgb(255 255 255 /0.03) 100%
+    // );
+  }
+}
