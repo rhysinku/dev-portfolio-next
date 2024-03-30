@@ -48,10 +48,10 @@ const AnimateBackground = () => {
       },
       particles: {
         color: {
-          value: "#fff",
+          value: "#C51D1D",
         },
         links: {
-          color: "#ffffff",
+          color: "#FF634A",
           distance: 150,
           enable: true,
           opacity: 0.5,
@@ -74,10 +74,10 @@ const AnimateBackground = () => {
           value: 80,
         },
         opacity: {
-          value: 0.5,
+          value: 1.5,
         },
         shape: {
-          type: "circle",
+          type: "triangle",
         },
         size: {
           value: { min: 1, max: 5 },

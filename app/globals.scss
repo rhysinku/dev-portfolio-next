@@ -38,6 +38,9 @@ h6,
 small {
   @apply font-priFont leading-[100%];
 }
+p {
+  @apply leading-[100%];
+}
 
 .text-glow {
   @apply drop-shadow-glow;

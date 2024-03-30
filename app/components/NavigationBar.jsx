@@ -1,7 +1,8 @@
-import React from "react";
+"use client";
 import Navlist from "./Navlist";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const NavigationBar = () => {
   const navItem = [
@@ -25,7 +26,13 @@ const NavigationBar = () => {
 
   return (
     // Home Nav
-    <div id="nav" className="backdrop-blur-sm">
+    <motion.div
+      initial={{ top: -100, opacity: 0 }}
+      animate={{ top: 0, opacity: 1 }}
+      transition={{ durations: 500, type: "spring" }}
+      id="nav"
+      className="backdrop-blur-sm"
+    >
       <div className="wrapper">
         <nav className="flex justify-between items-center min-h-14">
           <Link href={"/"}>
@@ -38,7 +45,7 @@ const NavigationBar = () => {
           </section>
         </nav>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

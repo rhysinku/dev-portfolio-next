@@ -1,5 +1,8 @@
-import Link from "next/link";
-
+"use client";
+import GradientButton from "./components/Buttons/GradientButton";
+import { motion } from "framer-motion";
+import HeaderText from "./components/Text/HeaderText";
+import ParagraphText from "./components/Text/ParagraphText";
 export default function Home() {
   return (
     <div className="h-full">
@@ -7,19 +10,17 @@ export default function Home() {
         <div id="main_con" className="h-full flex items-end">
           <div className="mb-40">
             <div>
-              <small className="text-4xl">Hello there, i am</small>
-              <h1 className="text-glow text-priColor-800 text-8xl">
-                RHYSIN VILLAHERMOSA
+              <small className="text-4xl">
+                <ParagraphText prgh={"Hello there, i am"} />
+              </small>
+              <h1 className="text-8xl text-priColor-800 drop-shadow-glow">
+                <HeaderText word={"Rhysin Villahermosa"} isDrag={true} />
               </h1>
               <p>A aspiring web developer</p>
             </div>
             <div className="flex gap-x-5 mt-6">
-              <Link href={"/"} className="btn">
-                Download Resume
-              </Link>
-              <Link href={"/"} className="btn">
-                Contact Me
-              </Link>
+              <GradientButton href={"/"} btnName={"Download Resume"} />
+              <GradientButton href={"/contact"} btnName={"Contact Me"} />
             </div>
           </div>
         </div>
