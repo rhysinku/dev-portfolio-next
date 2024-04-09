@@ -1,4 +1,5 @@
 import BackgroundLayout from "./components/Background/BackgroundLayout";
+import Cursor from "./components/Cursor";
 import NavigationBar from "./components/NavigationBar";
 import "./globals.scss";
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </div>
+        <Cursor/>
       </body>
     </html>
   );

@@ -39,7 +39,7 @@ small {
   @apply font-priFont leading-[100%];
 }
 p {
-  @apply leading-[100%];
+  @apply leading-6;
 }
 
 .text-glow {
@@ -52,11 +52,19 @@ p {
   text-priColor-800;
 }
 
+.cursor{
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
+  @apply
+  fixed rounded-full bg-priColor-700  drop-shadow-glow w-3 aspect-square z-[999]  backdrop-blur-sm pointer-events-none cursor-pointer mix-blend-difference ;
+}
+
 .btn {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
-  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md;
+  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md ;
 
   &:before,
   &:after {
