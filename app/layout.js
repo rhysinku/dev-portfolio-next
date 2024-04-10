@@ -12,17 +12,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="isolate">
-        <div className="w-screen h-screen relative overflow-hidden">
-          <div className="absolute w-[150%] h-full  top-0 bottom-0 z-[-1] ">
+        <div className="w-screen relative">
+          <div className="absolute w-full h-full  top-0 bottom-0 z-[-1] overflow-hidden">
             <BackgroundLayout />
           </div>
           <NavigationBar></NavigationBar>
 
-          <div id="container" className="w-screen h-[calc(100vh-3.5rem)] ">
+          <div id="container" className="w-screen">
             {children}
           </div>
         </div>
-        <Cursor/>
+        <Cursor />
       </body>
     </html>
   );

@@ -3,8 +3,12 @@ import React from "react";
 import AnimateBackground from "./AnimateBackground";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 const BackgroundLayout = () => {
+  const pathName = usePathname();
+  const visble = pathName === "/about" ? false : true;
+
   return (
     <>
       <motion.div
@@ -13,23 +17,25 @@ const BackgroundLayout = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 3 }}
       >
-        <motion.div
-          animate={{ x: [0, 10, 0], scale: [1, 1.01, 1] }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "reverse",
-            duration: 4,
-            type: "tween",
-          }}
-        >
-          <Image
-            alt="Pockey Pepero Logo"
-            src={"/pp_bighero.png"}
-            width={"1150"}
-            height={"100"}
-            className="opacity-70 -rotate-12"
-          ></Image>
-        </motion.div>
+        {visble && (
+          <motion.div
+            animate={{ x: [0, 10, 0], scale: [1, 1.01, 1] }}
+            transition={{
+              repeat: Infinity,
+              repeatType: "reverse",
+              duration: 4,
+              type: "tween",
+            }}
+          >
+            <Image
+              alt="Pockey Pepero Logo"
+              src={"/pp_bighero.png"}
+              width={"1150"}
+              height={"100"}
+              className="opacity-70 -rotate-12"
+            ></Image>
+          </motion.div>
+        )}
       </motion.div>
       <AnimateBackground />
     </>
