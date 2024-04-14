@@ -4,7 +4,7 @@ import { motion, stagger } from "framer-motion";
 const HeaderText = ({ word, isDrag = false }) => {
   const variants = {
     hidden: { opacity: 0, x: -200 },
-    visible: { opacity: 1, x: 0, transition:{staggerChildren: 0.2}},
+    visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.2 } },
   };
 
   return (
@@ -25,7 +25,6 @@ const HeaderText = ({ word, isDrag = false }) => {
                 }}
                 whileDrag={{ scale: 2 }}
                 key={j}
-                
                 variants={variants}
                 className="inline-block"
                 drag={isDrag ? true : false}

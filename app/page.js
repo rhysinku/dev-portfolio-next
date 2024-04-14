@@ -5,7 +5,7 @@ import HeaderText from "./components/Text/HeaderText";
 import ParagraphText from "./components/Text/ParagraphText";
 export default function Home() {
   return (
-    <div className="h-[calc(100vh-3.5rem)]">
+    <div className="h-[calc(100vh-3.5rem)] overflow-hidden">
       <div className="wrapper">
         <div id="main_con" className="h-full flex items-end">
           <div className="mb-40">

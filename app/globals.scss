@@ -52,19 +52,18 @@ p {
   text-priColor-800;
 }
 
-.cursor{
+.cursor {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
-  @apply
-  fixed rounded-full bg-priColor-700  drop-shadow-glow w-3 aspect-square z-[999]  backdrop-blur-sm pointer-events-none cursor-pointer mix-blend-difference ;
+  @apply fixed rounded-full bg-priColor-700  drop-shadow-glow aspect-square z-[999]  backdrop-blur-sm pointer-events-none cursor-pointer mix-blend-difference;
 }
 
 .btn {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
-  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md ;
+  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md;
 
   &:before,
   &:after {
@@ -88,5 +87,29 @@ p {
     //   transparent 65%,
     //   rgb(255 255 255 /0.03) 100%
     // );
+  }
+}
+
+#about_con {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  .about_section {
+    scroll-snap-align: start;
+  }
+}
+
+.tech-card {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
+  @apply backdrop-blur-sm rounded-md;
+}
+
+.project_box {
+}
+.project-card {
+  @apply w-screen flex items-center justify-center;
+  .project_cont {
+    @apply flex justify-between items-end gap-x-8  px-8 w-3/4;
   }
 }
