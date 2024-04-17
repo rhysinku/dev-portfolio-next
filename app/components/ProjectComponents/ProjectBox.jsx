@@ -5,6 +5,8 @@ const ProjectBox = () => {
   return (
     <>
       <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
     </>
   );
 };

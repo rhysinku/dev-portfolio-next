@@ -4,6 +4,7 @@ import AnimateBackground from "./AnimateBackground";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import BackgroundGradient from "./BackgroundGradient";
 
 const BackgroundLayout = () => {
   const pathName = usePathname();
@@ -38,6 +39,7 @@ const BackgroundLayout = () => {
         )}
       </motion.div>
       <AnimateBackground />
+      <BackgroundGradient/>
     </>
   );
 };
