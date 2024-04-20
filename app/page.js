@@ -1,6 +1,6 @@
 "use client";
 import GradientButton from "./components/Buttons/GradientButton";
-import { motion } from "framer-motion";
+
 import HeaderText from "./components/Text/HeaderText";
 import ParagraphText from "./components/Text/ParagraphText";
 export default function Home() {
@@ -16,11 +16,11 @@ export default function Home() {
               <h1 className="text-8xl text-priColor-800 drop-shadow-glow">
                 <HeaderText word={"Rhysin Villahermosa"} isDrag={true} />
               </h1>
-              <p>A aspiring web developer</p>
+              <p>An aspiring full stack developer | graphic artist</p>
             </div>
             <div className="flex gap-x-5 mt-6">
-              <GradientButton href={"/"} btnName={"Download Resume"} />
-              <GradientButton href={"/contact"} btnName={"Contact Me"} />
+              <GradientButton href={"/"}> Download Resume </GradientButton>
+              <GradientButton href={"/contact"}> Contact Me </GradientButton>
             </div>
           </div>
         </div>

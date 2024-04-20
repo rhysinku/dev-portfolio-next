@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 
-const GradientButton = ({ href = "/", btnName = "button" }) => {
+const GradientButton = ({ href = "/", children, targetBlank = false }) => {
   return (
     <motion.div
       whileHover={{
@@ -14,8 +14,8 @@ const GradientButton = ({ href = "/", btnName = "button" }) => {
       className="btn"
       whileTap={{ scale: 0.9 }}
     >
-      <Link href={href}>
-        <button>{btnName}</button>
+      <Link href={href} target={targetBlank ? "_blank" : undefined}>
+        <button>{children}</button>
       </Link>
     </motion.div>
   );

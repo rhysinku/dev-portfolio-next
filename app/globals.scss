@@ -75,7 +75,38 @@ p {
   }
 
   &:before {
-    border: 1px solid rgba(255, 33, 33, 1);
+    border: 1px solid #ff2121;
+    -webkit-mask-image: linear-gradient(195deg, white 0%, transparent 60%);
+  }
+
+  &:after {
+    // background: linear-gradient(
+    //   var(--deg),
+    //   rgb(255 255 255 /0.03) 0%,
+    //   transparent 35%,
+    //   transparent 65%,
+    //   rgb(255 255 255 /0.03) 100%
+    // );
+  }
+}
+
+.tag-btn {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(225deg, #00224d 0%, #040810 100%);
+  @apply px-3 my-1 py-2 inline-block w-[max-content] backdrop-blur-sm rounded-md;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  &:before {
+    border: 1px solid #0574ff;
     -webkit-mask-image: linear-gradient(195deg, white 0%, transparent 60%);
   }
 
@@ -111,5 +142,11 @@ p {
   @apply w-screen flex items-center justify-center;
   .project_cont {
     @apply flex justify-between items-end gap-x-8  px-8 w-3/4;
+  }
+  .stack-used {
+    @apply flex gap-2 items-center;
+  }
+  .project-btn {
+    @apply flex gap-3 items-center;
   }
 }

@@ -1,7 +1,17 @@
 "use client";
-import { motion, stagger } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
 
 const HeaderText = ({ word, isDrag = false }) => {
+  const headerRef = useRef();
+  const isInView = useInView(headerRef, { once: true });
+  const animationController = useAnimation();
+  useEffect(() => {
+    if (isInView) {
+      animationController.start("visible");
+    }
+  }, [isInView]);
+
   const variants = {
     hidden: { opacity: 0, x: -200 },
     visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.2 } },
@@ -10,9 +20,10 @@ const HeaderText = ({ word, isDrag = false }) => {
   return (
     <>
       <motion.span
+        ref={headerRef}
         variants={variants}
         initial="hidden"
-        animate="visible"
+        animate={animationController}
         className="block"
       >
         {word.split(" ").map((text, i) => (

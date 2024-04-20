@@ -6,11 +6,11 @@ import HeaderText from "../components/Text/HeaderText";
 
 const ProjectPage = () => {
   return (
-    <div className="h-[calc(100vh-3.5rem)] overflow-y-scroll" id="project_con">
+    <div className="h-[calc(100%-3.5rem)]" id="project_con">
       <div className="wrapper">
         <div className="h-screen flex items-center justify-center">
-          <div>
-            <h1 className="text-6xl text-priColor-900 drop-shadow-glow ">
+          <div className="text-center">
+            <h1 className="text-6xl text-priColor-900 drop-shadow-glow mb-6">
               <HeaderText word={"Projects I Worked"} />
             </h1>
 
@@ -22,15 +22,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <div className="relative h-[200vh]  flex-wrap">
-        <div className="sticky top-0 h-screen flex items-center overflow-hidden">
-          <div className="flex ">
-            <ProjectBox />
-          </div>
-        </div>
-      </div>
-
-      <div className="h-[500px] bg-priColor-800"></div>
+      <ProjectBox />
     </div>
   );
 };

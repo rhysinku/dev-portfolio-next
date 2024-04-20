@@ -1,31 +1,42 @@
 import React from "react";
 import HeaderText from "../Text/HeaderText";
+import TagButton from "../Buttons/TagButton";
+import GradientButton from "../Buttons/GradientButton";
+import Image from "next/image";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
   return (
     <section className="project-card">
-      <div class="project_cont">
-        <figure>
-          <img src={"https://placehold.co/682x475"} />
+      <div className="project_cont">
+        <figure className="w-1/2">
+          <Image
+            src={`/screenshot/${project.image}`}
+            width={682}
+            height={475}
+          />
         </figure>
-        <div className="mb-8">
+        <div className="mb-8 w-1/2">
           <h2 className="text-6xl mb-5 text-priColor-900 drop-shadow-glow">
-            <HeaderText word={"Project Title"} />
+            <HeaderText word={project.name} />
           </h2>
-          <p>
-            This is a project descriptions this is the content, Here it lies the
-            content that i want to place in here
-          </p>
+          <p>{project.desc}</p>
           <div className="stack-used my-5">
-            <section className="btn">JavaScript</section>
-            <section className="btn">Sass</section>
-            <section className="btn">Html</section>
-            <section className="btn">npm</section>
+            {project.stack.map((stack, index) => (
+              <TagButton key={index}>{stack}</TagButton>
+            ))}
           </div>
 
-          <div className="project">
-            <section className="btn">Source Code</section>
-            <section className="btn">View Site</section>
+          <div className="project-btn">
+            {project.github && (
+              <GradientButton targetBlank={true} href={project.github}>
+                View Code
+              </GradientButton>
+            )}
+            {project.site && (
+              <GradientButton targetBlank={true} href={project.site}>
+                Visit Page
+              </GradientButton>
+            )}
           </div>
         </div>
       </div>

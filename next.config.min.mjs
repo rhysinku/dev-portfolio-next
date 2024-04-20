@@ -1,1 +1,1 @@
-const nextConfig={images:{domains:["placehold.co"]}};export default nextConfig;
+const nextConfig={};export default nextConfig;
