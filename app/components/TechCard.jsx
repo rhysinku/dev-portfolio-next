@@ -13,7 +13,7 @@ const TechCard = ({ stack }) => {
       variants={variants}
       className="tech-card aspect-square w-[17%] flex items-center justify-center"
     >
-      <motion.div className="bg-white p-2 rounded-md flex items-center justify-center aspect-square w-3/4">
+      <motion.div className="p-2 rounded-md flex items-center justify-center aspect-square w-3/4">
         <motion.figure
           whileHover="onHover"
           variants={variants}

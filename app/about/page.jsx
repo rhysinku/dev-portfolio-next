@@ -4,7 +4,7 @@ import TechContainer from "../components/TechContainer";
 
 const AboutPage = () => {
   return (
-    <div className="max-h-[calc(100vh-3.5rem)]" id="about_con">
+    <div className="h-[calc(100vh-3.5rem)]" id="about_con">
       <div className="wrapper">
         <div className="h-screen flex items-center justify-center about_section">
           <div>

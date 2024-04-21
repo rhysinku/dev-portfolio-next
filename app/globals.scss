@@ -42,6 +42,18 @@ p {
   @apply leading-6;
 }
 
+* > input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+* > textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  resize: unset;
+}
+
 .text-glow {
   @apply drop-shadow-glow;
 }
@@ -139,7 +151,7 @@ p {
 .project_box {
 }
 .project-card {
-  @apply w-screen flex items-center justify-center;
+  @apply flex items-center justify-center max-w-full w-[100rem];
   .project_cont {
     @apply flex justify-between items-end gap-x-8  px-8 w-3/4;
   }
@@ -148,5 +160,23 @@ p {
   }
   .project-btn {
     @apply flex gap-3 items-center;
+  }
+}
+
+.grad-box {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
+  @apply backdrop-blur-sm rounded-md;
+}
+
+.contact-form {
+  .input {
+    input {
+      @apply bg-[transparent] border-2 border-t-0 border-l-0 border-r-0 border-priColor-800;
+    }
+    textarea {
+      @apply bg-[transparent] border-2 border-t-0 border-l-0 border-r-0 border-priColor-800;
+    }
   }
 }

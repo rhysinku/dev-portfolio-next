@@ -8,7 +8,7 @@ import BackgroundGradient from "./BackgroundGradient";
 
 const BackgroundLayout = () => {
   const pathName = usePathname();
-  const visble = pathName === "/about" ? false : true;
+  const visble = pathName === "/" ? true : false;
 
   return (
     <>
@@ -39,7 +39,7 @@ const BackgroundLayout = () => {
         )}
       </motion.div>
       <AnimateBackground />
-      <BackgroundGradient/>
+      <BackgroundGradient />
     </>
   );
 };

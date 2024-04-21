@@ -8,11 +8,12 @@ const ProjectCard = ({ project }) => {
   return (
     <section className="project-card">
       <div className="project_cont">
-        <figure className="w-1/2">
+        <figure className="w-1/2 self-center">
           <Image
             src={`/screenshot/${project.image}`}
             width={682}
             height={475}
+            className="overflow-hidden rounded-xl drop-shadow-glow"
           />
         </figure>
         <div className="mb-8 w-1/2">
