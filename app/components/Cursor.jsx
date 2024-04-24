@@ -1,6 +1,6 @@
 "use client";
 import { motion, useMotionValue, useSpring } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const Cursor = () => {
   // const [mouse, setmouse] = useState({x:0, y: 0})

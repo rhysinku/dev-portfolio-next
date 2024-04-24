@@ -13,7 +13,7 @@ const AboutPage = () => {
             </h1>
             <p>
               Hello! I'm
-              <span className="text-priColor-900 drop-shadow-glow text-3xl font-bold">
+              <span className="text-priColor-900 drop-shadow-glow text-3xl font-bold font-priFont">
                 {" "}
                 Rhysin Villahermosa{" "}
               </span>
