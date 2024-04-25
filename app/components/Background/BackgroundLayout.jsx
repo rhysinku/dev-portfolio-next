@@ -38,7 +38,7 @@ const BackgroundLayout = () => {
           </motion.div>
         )}
       </motion.div>
-      {/* <AnimateBackground /> */}
+      <AnimateBackground />
       <BackgroundGradient />
     </>
   );

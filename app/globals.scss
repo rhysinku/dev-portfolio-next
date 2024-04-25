@@ -15,6 +15,7 @@
     relative;
 }
 
+
 body {
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -142,9 +143,9 @@ p {
 }
 
 .tech-card {
-  background-size: 100% 100%;
-  background-position: 0px 0px;
-  background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
+  // background-size: 100% 100%;
+  // background-position: 0px 0px;
+  // background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
   @apply backdrop-blur-sm rounded-md;
 }
 

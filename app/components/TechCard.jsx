@@ -11,7 +11,7 @@ const TechCard = ({ stack }) => {
     const [Hover, setHover] = useState(false)
   const variants = {
     initial: {filter: "grayscale(1)"},
-    onHover: { scale: 1.5, filter: "grayscale(0)" ,filter: "drop-shadow(0px 0px 53px rgba(217, 11, 4, 1))", },
+    onHover: { scale: 1.5,filter: `grayscale(0) drop-shadow(0px 0px 9px ${stack.color}) drop-shadow(0px 0px 100px ${stack.color})`, },
     ofHover: { scale: 1, filter: "grayscale(1)" },
   };
 
@@ -59,7 +59,7 @@ const TechCard = ({ stack }) => {
         transformStyle: "preserve-3d",
         transform: moveCard,
       }}
-      className="tech-card aspect-square w-[17%] flex items-center justify-center drop-shadow-glow"
+      className="tech-card aspect-square w-[17%] flex items-center justify-center"
     >
       <motion.div className="p-2 rounded-md flex items-center justify-center aspect-square w-3/4"
        style={{transform: "translateZ(50px)",   transformStyle: "preserve-3d"}}>

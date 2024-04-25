@@ -1,54 +1,67 @@
 [
   {
     "name": "HTML",
-    "image": "html.png"
+    "image": "html.png",
+    "color": "rgba(228, 76, 38, 1)"
   },
   {
     "name": "CSS",
-    "image": "css.png"
+    "image": "css.png",
+    "color": "rgba(38, 78, 228, 1)"
   },
   {
     "name": "Javascript",
-    "image": "js.png"
+    "image": "js.png",
+    "color": "rgba(247, 222, 30, 1)"
   },
   {
     "name": "PHP",
-    "image": "php.png"
+    "image": "php.png",
+    "color": "rgba(68, 107, 245, 1)"
   },
   {
     "name": "mySQL",
-    "image": "mysqli.png"
+    "image": "mysqli.png",
+    "color": "rgba(10, 187, 252, 1)"
   },
   {
     "name": "React",
-    "image": "react.png"
+    "image": "react.png",
+    "color": "rgba(97, 219, 251, 1)"
   },
   {
     "name": "Sass",
-    "image": "sass.png"
+    "image": "sass.png",
+    "color": "rgba(255, 10, 169, 1)"
   },
   {
     "name": "Tailwind",
-    "image": "tailwind.png"
+    "image": "tailwind.png",
+    "color": "rgba(87, 227, 255, 1)"
   },
   {
     "name": "Wordpress",
-    "image": "wordpress.png"
+    "image": "wordpress.png",
+    "color": "rgba(69, 162, 255, 1)"
   },
   {
     "name": "Figma",
-    "image": "figma.png"
+    "image": "figma.png",
+    "color": "rgba(255, 128, 102, 1)"
   },
   {
     "name": "GIT",
-    "image": "git.png"
+    "image": "git.png",
+    "color": "rgba(237, 71, 38, 1)"
   },
   {
     "name": "NextJs",
-    "image": "nextjs.png"
+    "image": "nextjs.png",
+    "color": "rgba(143, 143, 143, 1)"
   },
   {
     "name": "Laravel",
-    "image": "laravel.png"
+    "image": "laravel.png",
+    "color": "rgba(255, 35, 15, 1)"
   }
 ]
