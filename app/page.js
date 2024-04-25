@@ -1,5 +1,7 @@
 "use client";
 import GradientButton from "./components/Buttons/GradientButton";
+import SocialMediaBox from "./components/SocialMedia/SocialMediaBox";
+
 
 
 import HeaderText from "./components/Text/HeaderText";
@@ -11,6 +13,7 @@ export default function Home() {
         <div id="main_con" className="h-full flex items-end">
           <div className="mb-40">
             <div>
+             <SocialMediaBox/>
               <small className="text-4xl">
                 <ParagraphText prgh={"Hello there, i am"} />
               </small>

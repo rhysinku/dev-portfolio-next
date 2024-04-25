@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Github",
+        "icon" : "FaGithub"
+    },
+    {
+        "name": "Codepen",
+        "icon" : "FaCodepen "
+    },
+    {
+        "name": "Gmail",
+        "icon" : "IoMdMail"
+    }
+]
