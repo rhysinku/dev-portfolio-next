@@ -13,8 +13,8 @@ const ProjectBox = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["0", "-85%"]);
 
   return (
-    <div ref={carouselRef} className="relative h-[350vh]  flex-wrap">
-      <div className="sticky top-0 h-screen flex items-center overflow-hidden">
+    <div ref={carouselRef} className="relative h-[365vh]  flex-wrap">
+      <div className="sticky top-0 h-screen flex items-center overflow-hidden pt-7">
         <motion.div className="flex " style={{ x }}>
           {projectInfo.map((project, index) => (
             <ProjectCard key={index} project={project} />

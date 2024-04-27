@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaCodepen, FaLinkedin, FaGoogle } from "react-icons/fa";
 export default function SocialMediaCard({ item }) {
-  const iconMap   = {
+  const iconMap = {
     FaGithub,
     FaCodepen,
     FaLinkedin,

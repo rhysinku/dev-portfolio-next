@@ -7,7 +7,6 @@ export default function techContainer() {
       {techList.map((stack) => (
         <TechCard stack={stack} key={stack.image} />
       ))}
-
     </div>
   );
 }

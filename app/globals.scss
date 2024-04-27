@@ -15,7 +15,6 @@
     relative;
 }
 
-
 body {
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -69,7 +68,7 @@ p {
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
-  @apply fixed rounded-full bg-priColor-700  drop-shadow-glow aspect-square z-[999]  backdrop-blur-sm pointer-events-none cursor-pointer mix-blend-difference;
+  @apply fixed rounded-full bg-priColor-700  drop-shadow-glow aspect-square z-[999]  backdrop-blur-sm pointer-events-none cursor-pointer mix-blend-difference xl:block hidden;
 }
 
 .btn {
@@ -151,16 +150,23 @@ p {
 
 .project_box {
 }
-.project-card {
-  @apply flex items-center justify-center max-w-full w-[100rem];
+.project_card {
+  @apply flex lg:items-center justify-center max-w-full w-[120vw];
   .project_cont {
-    @apply flex justify-between items-end gap-x-8  px-8 w-3/4;
+    @apply flex flex-wrap px-5 py-6 flex-col gap-x-4 gap-y-4 w-screen items-center xl:flex-row;
+    figure {
+      @apply w-1/2 self-center xl:w-2/5;
+    }
+
+    .project_info {
+      @apply mb-8 w-11/12 xl:w-1/2;
+    }
   }
   .stack-used {
     @apply flex gap-2 items-center;
   }
   .project-btn {
-    @apply flex gap-3 items-center;
+    @apply flex gap-3 items-center justify-center xl:justify-start;
   }
 }
 
@@ -181,7 +187,6 @@ p {
     }
   }
 }
-
 
 .grad-con {
   background-size: 100% 100%;

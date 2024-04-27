@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
   return (
-    <section className="project-card">
+    <section className="project_card">
       <div className="project_cont">
-        <figure className="w-1/2 self-center">
+        <figure>
           <Image
             src={`/screenshot/${project.image}`}
             width={682}
@@ -16,12 +16,12 @@ const ProjectCard = ({ project }) => {
             className="overflow-hidden rounded-xl drop-shadow-glow"
           />
         </figure>
-        <div className="mb-8 w-1/2">
-          <h2 className="text-6xl mb-5 text-priColor-900 drop-shadow-glow">
+        <div className="project_info">
+          <h2 className="lg:text-6xl text-3xl mb-5 text-priColor-900 drop-shadow-glow text-center xl:text-left">
             <HeaderText word={project.name} />
           </h2>
           <p>{project.desc}</p>
-          <div className="stack-used my-5">
+          <div className="stack-used my-5 flex-wrap gap-2 justify-center xl:justify-start">
             {project.stack.map((stack, index) => (
               <TagButton key={index}>{stack}</TagButton>
             ))}

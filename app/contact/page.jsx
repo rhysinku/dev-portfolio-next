@@ -7,9 +7,9 @@ const ContactPage = () => {
   return (
     <div className="h-[calc(100vh-3.5rem)]" id="contact_con">
       <div className="wrapper">
-        <div className="h-full flex items-center justify-center gap-6">
-          <div className="w-1/2">
-            <h1 className="text-8xl text-priColor-800 drop-shadow-glow">
+        <div className="h-full flex items-center justify-center gap-6 flex-wrap">
+          <div className="lg:w-2/5 lg:text-left w-full text-center px-4">
+            <h1 className="text-6xl text-priColor-800 drop-shadow-glow md:text-8xl">
               <HeaderText word={"Get In Touch"} />
             </h1>
             <p>
@@ -18,12 +18,12 @@ const ContactPage = () => {
               ready to connect with you.
             </p>
             <p className="my-5">Find me on:</p>
-            <div>
+            <div className="flex gap-4 justify-center lg:justify-start">
               <SocialMediaBox />
             </div>
             <div></div>
           </div>
-          <div className="grad-box w-1/2 p-9 min-h-[600px] flex items-center justify-center">
+          <div className="grad-box lg:w-1/2 w-11/12 max-w-7xl  p-9 flex items-center justify-center">
             <FormContact />
           </div>
         </div>
