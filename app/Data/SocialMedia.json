@@ -1,14 +1,18 @@
 [
-    {
-        "name": "Github",
-        "icon" : "FaGithub"
-    },
-    {
-        "name": "Codepen",
-        "icon" : "FaCodepen "
-    },
-    {
-        "name": "Gmail",
-        "icon" : "IoMdMail"
-    }
+  {
+    "name": "Github",
+    "icon": "FaGithub"
+  },
+  {
+    "name": "Codepen",
+    "icon": "FaCodepen"
+  },
+  {
+    "name": "Gmail",
+    "icon": "FaGoogle"
+  },
+  {
+    "name": "Linkedin",
+    "icon": "FaLinkedin"
+  }
 ]

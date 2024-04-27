@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderText from "../components/Text/HeaderText";
 import FormContact from "../components/ContactForm/FormContact";
+import SocialMediaBox from "../components/SocialMedia/SocialMediaBox";
 
 const ContactPage = () => {
   return (
@@ -17,6 +18,9 @@ const ContactPage = () => {
               ready to connect with you.
             </p>
             <p className="my-5">Find me on:</p>
+            <div>
+              <SocialMediaBox />
+            </div>
             <div></div>
           </div>
           <div className="grad-box w-1/2 p-9 min-h-[600px] flex items-center justify-center">

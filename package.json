@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
     "framer-motion": "^11.0.23",
