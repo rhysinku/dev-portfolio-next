@@ -22,7 +22,7 @@ export default function Home() {
               </h1>
               <p>
                 <span>An aspiring full stack developer </span> |
-                <span>graphic artist</span>
+                <span> graphic artist</span>
               </p>
             </div>
             <div className="flex gap-x-5 mt-6">

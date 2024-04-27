@@ -11,6 +11,7 @@ const ProjectCard = ({ project }) => {
         <figure>
           <Image
             src={`/screenshot/${project.image}`}
+            alt={project.name}
             width={682}
             height={475}
             className="overflow-hidden rounded-xl drop-shadow-glow"
