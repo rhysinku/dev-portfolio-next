@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@artsy/fresnel": "^7.1.4",
     "@emailjs/browser": "^4.3.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
