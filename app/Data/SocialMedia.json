@@ -1,18 +1,27 @@
 [
   {
     "name": "Github",
-    "icon": "FaGithub"
+    "icon": "FaGithub",
+    "url": "https://github.com/rhysinku"
   },
   {
     "name": "Codepen",
-    "icon": "FaCodepen"
+    "icon": "FaCodepen",
+    "url": "https://codepen.io/rhysinku"
   },
   {
     "name": "Gmail",
-    "icon": "FaGoogle"
+    "icon": "FaGoogle",
+    "url": "mailto:rhysindodev@gmail.com"
   },
   {
     "name": "Linkedin",
-    "icon": "FaLinkedin"
+    "icon": "FaLinkedin",
+    "url": "https://www.linkedin.com/in/rhysinvillahermosa/"
+  },
+  {
+    "name": "Instagram",
+    "icon": "FaInstagram",
+    "url": "https://www.instagram.com/pockeypepero/"
   }
 ]
