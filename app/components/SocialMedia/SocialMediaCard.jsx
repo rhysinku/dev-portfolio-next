@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import {
@@ -24,10 +26,10 @@ export default function SocialMediaCard({ item }) {
   }
 
   return (
-    <div className="text-priColor-900">
+    <motion.div whileHover={{ scale: 1.4, transition: { duration: 0.5 } }}>
       <Link href={item.url} target="_blank">
         <IconComponent size={30} />
       </Link>
-    </div>
+    </motion.div>
   );
 }
