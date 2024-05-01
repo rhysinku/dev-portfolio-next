@@ -5,7 +5,7 @@
     "site": "https://rhysin-age-calculator.netlify.app/",
     "github": "https://github.com/rhysinku/ageCalculatorJS",
     "stack": ["JS", "HTML", "CSS", "Jquery"],
-    "desc": "This project offers an intuitive Age Calculator developed for the Frontend Mentor challenge. Users input their date of birth, and the calculator swiftly computes their age, presenting the result seamlessly. Crafted with a blend of vanilla JavaScript, HTML, and CSS, the interface ensures a smooth user experience. To enhance functionality, a date picker from the jQuery library is seamlessly integrated. Moreover, it's hosted on Netlify, ensuring accessibility to users across the web."
+    "desc": "I've developed an Age Calculator for the Frontend Mentor challenge. It's a user-friendly tool crafted with vanilla JavaScript, HTML, and CSS. Users simply enter their date of birth, and the calculator promptly displays their age. I've integrated a jQuery date picker to streamline the experience further. The entire project is hosted on Netlify, ensuring it's accessible to users everywhere."
   },
   {
     "name": "To Do List Vanilla JS",
@@ -13,7 +13,7 @@
     "site": "https://rhysinku.github.io/todo-app-main/",
     "github": "https://github.com/rhysinku/todo-app-main",
     "stack": ["JS", "HTML", "CSS", "Jquery"],
-    "desc": "This project introduces a To-Do List App designed for the Frontend Mentor challenge. Users can seamlessly add their to-do list items, streamlining their task management process. Crafted with a combination of vanilla JavaScript, HTML, and CSS, the interface ensures simplicity and efficiency."
+    "desc": "I also feature a To-Do List App designed for the Frontend Mentor challenge. This simple yet effective application allows users to add items to their to-do list, helping them manage tasks more efficiently. It's built with vanilla JavaScript, HTML, and CSS, focusing on a clean and straightforward user interface."
   },
   {
     "name": "To Do List React",
@@ -21,7 +21,7 @@
     "site": "https://rhysin-react-todo.netlify.app/",
     "github": "https://github.com/rhysinku/react-todo-list",
     "stack": ["JS", "HTML", "CSS", "React", "SASS", "Vite"],
-    "desc": "This project marks my first venture into ReactJS, where I recreated my To-Do List app from its original Vanilla JS version. It serves as a milestone in my journey of learning and exploring React. Hosted on Netlify, it's readily accessible, while its open-source nature invites collaboration and improvement. You can find the project repository on GitHub for further exploration."
+    "desc": "This is my To-Do List app, initially built with Vanilla JS and later converted to React as I began learning the framework. Hosted on Netlify and open-source, the project is available for collaboration and exploration on GitHub."
   },
   {
     "name": "Advice Generator",
@@ -29,7 +29,7 @@
     "site": "https://rhysin-advice-gen.netlify.app/",
     "github": "https://github.com/rhysinku/advice-generator-app-react",
     "stack": ["JS", "HTML", "React", "SASS", "Vite", "API"],
-    "desc": "This project is an Advice Generator, a pivotal step in my React journey where I delved into utilizing APIs. Through this endeavor, I gained hands-on experience integrating APIs seamlessly into React applications. As I embarked on this learning journey, I discovered the power and versatility APIs offer in enhancing user experiences. This project marks a significant milestone in my React development journey, showcasing my newfound skills in API integration and React application development."
+    "desc": "This project is an Advice Generator that marks a significant step in my React journey, focusing on API integration. It showcases my growing skills in enhancing React applications with APIs to improve user experiences."
   },
   {
     "name": "Tic Tac Toe Vanilla JS",
@@ -37,7 +37,7 @@
     "site": "https://rhysinku.github.io/tictactoe-js/",
     "github": "https://github.com/rhysinku/tictactoe-js",
     "stack": ["JS", "HTML", "CSS"],
-    "desc": "This project is a Tic Tac Toe game developed entirely in Vanilla JavaScript, serving as a playground for mastering dynamic function creation. Through this endeavor, I honed my skills in crafting interactive and dynamic functionalities within web applications. Building this game provided invaluable hands-on experience in implementing logic and interactivity using JavaScript. It stands as a testament to my journey of learning and mastering dynamic function creation in web development."
+    "desc": "This project is a Tic Tac Toe game built in Vanilla JavaScript, aimed at mastering dynamic function creation. Through this game, I enhanced my skills in implementing interactive and logic-driven functionalities, marking a key milestone in my web development journey."
   },
   {
     "name": "myFriends App",
@@ -45,6 +45,6 @@
     "site": null,
     "github": "https://github.com/rhysinku/laravel-friend-contact",
     "stack": ["PHP", "HTML", "SCSS", "Tailwind", "MySQL", "Laravel"],
-    "desc": "The myFriends app represents a significant milestone in my journey of backend development, constructed with Laravel, Tailwind CSS, and MySQL. Through this project, I delved deep into Laravel's capabilities, mastering essential functionalities like user authentication with login, register, and logout features. Beyond authentication, the app allows users to maintain a logbook of friends, enabling them to add and store friend details seamlessly. This project served as a comprehensive learning experience in backend development, providing hands-on practice in leveraging Laravel's powerful features to create functional and user-friendly web applications."
+    "desc": "The myFriends app is a key project in my backend development journey, built using Laravel, Tailwind CSS, and MySQL. This project allowed me to deeply explore Laravel's features, mastering user authentication and the ability to maintain a logbook of friends. It provided comprehensive hands-on experience in using Laravel to develop functional and user-friendly web applications."
   }
 ]

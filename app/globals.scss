@@ -15,6 +15,12 @@
     relative;
 }
 
+* { scrollbar-width: none; } /* Firefox */
+* { -ms-overflow-style: none; } /* IE and Edge */
+*::-webkit-scrollbar, *::-webkit-scrollbar-button { display: none; } 
+
+
+
 body {
   background-size: 100% 100%;
   background-position: 0px 0px;
@@ -146,6 +152,9 @@ p {
   // background-position: 0px 0px;
   // background-image: linear-gradient(225deg, #c51d1d4f 33%, #ff21210f 84%);
   @apply backdrop-blur-sm rounded-md;
+}
+#project_con{
+
 }
 
 .project_box {
