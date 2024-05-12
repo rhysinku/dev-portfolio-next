@@ -9,7 +9,7 @@ const ContactPage = () => {
       <div className="wrapper">
         <div className="h-full flex items-center justify-center gap-6 flex-wrap">
           <div className="lg:w-2/5 lg:text-left w-full text-center px-4">
-            <h1 className="text-6xl text-priColor-800 drop-shadow-glow md:text-8xl">
+            <h1 className=" text-priColor-800 drop-shadow-glow text-6xl md:text-8xl">
               <HeaderText word={"Get In Touch"} />
             </h1>
             <p>
