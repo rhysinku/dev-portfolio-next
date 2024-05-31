@@ -31,7 +31,7 @@ const AboutPage = () => {
           <div className="w-full flex justify-between items-center flex-wrap gap-y-5">
             <div className="w-full px-5 text-center lg:w-1/2 lg:text-left">
               <h1 className="text-8xl text-priColor-900 drop-shadow-glow ">
-                <HeaderText word={"My skills"} />
+                <HeaderText word={"My Tech Stack"} />
               </h1>
               <p>Technologies I’ve been working with recently</p>
             </div>
