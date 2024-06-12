@@ -46,5 +46,13 @@
     "github": "https://github.com/rhysinku/laravel-friend-contact",
     "stack": ["PHP", "HTML", "SCSS", "Tailwind", "MySQL", "Laravel"],
     "desc": "The myFriends app is a key project in my backend development journey, built using Laravel, Tailwind CSS, and MySQL. This project allowed me to deeply explore Laravel's features, mastering user authentication and the ability to maintain a logbook of friends. It provided comprehensive hands-on experience in using Laravel to develop functional and user-friendly web applications."
+  },
+  {
+    "name": "Larapen",
+    "image": "larapen.jpg",
+    "site": "https://larapen.great-site.net/",
+    "github": "https://github.com/kevsterde/larapen",
+    "stack": ["PHP", "HTML", "Tailwind", "MySQL", "Laravel"],
+    "desc": "Larapen is a collaborative project by two developers, inspired by CodePen, aimed at exploring the Laravel backend framework. The project serves as a clone of CodePen, providing a platform for developers to share and discover front-end code snippets. Through this project, the developers honed their skills in teamwork and mastered the intricacies of version control using Git. This repository showcases their journey in building a robust web application using Laravel and emphasizes the importance of collaborative software development practices."
   }
 ]

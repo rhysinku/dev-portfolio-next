@@ -10,7 +10,7 @@ const ProjectBox = () => {
     target: carouselRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0", "-85%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0", "-86%"]);
 
   return (
     <div ref={carouselRef} className="relative h-[365vh] flex flex-wrap">
