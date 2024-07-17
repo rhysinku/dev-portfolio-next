@@ -1,9 +1,9 @@
-"use client";
 import GradientButton from "./components/Buttons/GradientButton";
 import SocialMediaBox from "./components/SocialMedia/SocialMediaBox";
 
 import HeaderText from "./components/Text/HeaderText";
 import ParagraphText from "./components/Text/ParagraphText";
+
 export default function Home() {
   return (
     <div className="h-[calc(100vh-3.5rem)] overflow-hidden">
