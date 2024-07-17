@@ -26,7 +26,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex gap-x-5 mt-6">
-              <GradientButton href={"/"}> Download Resume </GradientButton>
+              <GradientButton href={"/Rhysin_Villahermosa_CV.pdf"}>
+                Download Resume
+              </GradientButton>
               <GradientButton href={"/contact"}> Contact Me </GradientButton>
             </div>
           </div>

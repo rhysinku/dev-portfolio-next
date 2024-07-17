@@ -5,7 +5,7 @@ import SocialMediaBox from "../components/SocialMedia/SocialMediaBox";
 
 const ContactPage = () => {
   return (
-    <div className="h-[calc(100vh-3.5rem)]" id="contact_con">
+    <div className="lg:h-[calc(100vh-3.5rem)] h-screen" id="contact_con">
       <div className="wrapper">
         <div className="h-full flex items-center justify-center gap-6 flex-wrap">
           <div className="lg:w-2/5 lg:text-left w-full text-center px-4">

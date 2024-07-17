@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
   return (
-    <section className="project_card">
-      <div className="project_cont">
+    <section className="project_card snap-x">
+      <div className="project_cont snap-center">
         <figure>
           <Image
             src={`/screenshot/${project.image}`}

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           <div className="absolute w-full h-full  top-0 bottom-0 z-[-1] overflow-hidden">
             <BackgroundLayout />
           </div>
-          <NavigationBar></NavigationBar>
+          <NavigationBar />
 
           <div id="container" className="w-screen">
             {children}
