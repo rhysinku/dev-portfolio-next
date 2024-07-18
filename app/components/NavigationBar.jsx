@@ -41,6 +41,7 @@ const NavigationBar = () => {
               alt="Rhysin Villahermosa Logo"
             />
           </Link>
+
           <div
             className="flex flex-col w-9 h-9 justify-evenly z-50"
             onClick={handleToggle}
@@ -49,6 +50,8 @@ const NavigationBar = () => {
             <span className="w-full h-1 bg-white rounded-md"></span>
             <span className="w-full h-1 bg-white rounded-md"></span>
           </div>
+
+          
 
           {isOpen && (
             <section className="fixed inset-0 bg-triColor-900 flex items-center justify-center z-40">
