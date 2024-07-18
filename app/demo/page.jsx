@@ -49,7 +49,7 @@ const DemoPage = () => {
 
     const BurgerMenuVariant= {
         open:{
-            x: "0",
+            x: "0",       
         },
         close:{
             x: "100%",
@@ -69,10 +69,10 @@ const DemoPage = () => {
         </MotionConfig>
     </div>
 
-  <MotionConfig transition={BurgerTransition}>
-  <motion.div className="fixed top-0 w-full h-screen bg-secColor-900 px-6" variants={BurgerMenuVariant} animate={isOpen ? "open" : "close"} >
+  <MotionConfig >
+  <motion.div className="fixed top-0 w-full h-screen bg-triColor-900 px-6" variants={BurgerMenuVariant} animate={isOpen ? "open" : "close"} >
        <div className="w-full h-full flex items-center ">
-       <ul className="flex flex-col">
+       <ul className="flex flex-col gap-y-2">
             {navItem.map((item, index)=> (
                 <Link href={item.link} key={index} className="hover:text-priColor-800 text-5xl" onClick={handleisOpen}>{item.title}</Link>
             ))}
