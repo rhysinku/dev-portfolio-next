@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="isolate">
         <div className="w-screen relative">
-          <div className="absolute w-full h-full  top-0 bottom-0 z-[-1] overflow-hidden">
+          <div className="banner absolute w-full h-full  top-0 bottom-0 z-[-1] overflow-hidden">
             <BackgroundLayout />
           </div>
           <NavigationBar />
